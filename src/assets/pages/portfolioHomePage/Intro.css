@@ -29,3 +29,7 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+.Contact img:hover{
+    transform: scale(1.46 );
+    transition: all 300ms ease-in-out;
+}
