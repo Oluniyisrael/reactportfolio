@@ -17,13 +17,13 @@ export default class Intro extends Component {
               </p> 
           </h3>
 
-          <div class="Contact">
+          <div className="Contact">
             
             <a href="https://facebook.com/oluniyiozy.israel" target='_blank' rel="noreferrer"><img src={img1} alt="..." height="30px" width="30px"/></a>&nbsp;
             <a href="http://wasap.my/9025486481" target='_blank' rel="noreferrer"><img src={whatsappimg}alt="..." height="30px" width="30px"/></a>
           </div>
                   <br/>
-          <div class="scroll">
+          <div className="scroll">
                   <Link to="/About"><img src={down} alt="..." height="25px" width="25px" id="down"/> Scroll down</Link> 
           </div>
         </div>

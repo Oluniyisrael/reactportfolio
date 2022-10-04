@@ -5,12 +5,12 @@ export default class About extends Component {
   render() {
     return (
         <section className="about" id="About">
-            <div id="Aboutme">
+            <div className="Aboutme">
                 <img src={Me} alt="..." height="250px" width="250px"/> 
             </div>
-            <div id="Aboutmecontents">
+            <div className="Aboutmecontents">
                 <h3>About Me</h3>
-                <p id="About-mecontents">
+                <p className="About-mecontents">
                     Hi, My name is Israel Oluniyi, I am the CEO of Nexus Technology, a tech company in Nigeria. I am a self taught
                     front-end developer. Aside fullstack development, I have an interest in Artificial Intelligence (AI) with a particular 
                     focus on Machine Learning, Deep Learning, Automation, Robotics and Data Science.  
@@ -26,12 +26,12 @@ export default class About extends Component {
                        <p>
                            Oluniyi Israel <br/>
                            Nasarawa, Nigeria <br/>
-                           <a href="tel:+2348069902175" id="abmel">+2348069902175</a> <br/>
-                           <a href="mailto:israeloluniyi2004@gmail.com" id="abmel">israeloluniyi2004@gmail.com</a>
+                           <a href="tel:+2348069902175" className="abmel">+2348069902175</a> <br/>
+                           <a href="mailto:israeloluniyi2004@gmail.com" className="abmel">israeloluniyi2004@gmail.com</a>
                        </p>
                     
            </div>
-           <div id="CV">
+           <div className="CV">
                <a href="#top" download>
                    Download CV
                </a>
