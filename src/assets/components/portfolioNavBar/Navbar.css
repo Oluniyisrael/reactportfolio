@@ -1,7 +1,7 @@
 .navBar{
     display: flex;
     justify-content: center;
-    position:fixed;
+    position: absolute;
     background-color: black;
     width: 100%;
     top: 0;    
@@ -20,10 +20,12 @@
     text-decoration: none;
 }
 .navBar a:hover {
-    color: 
-    rgb(45, 45, 63);
+    color: rgb(45, 45, 63);
     text-decoration: none;
 }
 .navBar a:visited{
     color: rgb(146, 161, 173);
+}
+.navBar a:active{
+    color: orange;
 }

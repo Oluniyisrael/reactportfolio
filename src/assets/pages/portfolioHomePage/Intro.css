@@ -1,0 +1,31 @@
+.introContainer{
+    height: 100vh;
+    width: 100vw;
+    background: url(/src/assets/images/img2.jpg) ;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro {
+width: 80%;
+text-align: center;
+}
+.intro a:link{
+    color: white;
+    text-decoration: none;
+}
+.intro a:visited{
+    color: white
+}
+.intro h1{
+    color:white ;
+    font-size: 40px;
+    font-family:Georgia;
+    text-align: center; 
+    margin: 0;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+}
