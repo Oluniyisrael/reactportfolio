@@ -34,7 +34,7 @@ text-align: center;
 }
 .scroll{
     display: flex;
-    justify-contents: center;
+    justify-content: center;
 }
  .scroll:hover{
     text-decoration: underline;
