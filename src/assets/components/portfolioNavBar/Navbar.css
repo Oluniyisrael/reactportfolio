@@ -1,0 +1,29 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;    
+}
+.navBar ul{  
+    list-style-type: none;
+    margin: 0;
+}
+.navBar li{
+    padding: 0;
+    display: inline-block;
+    margin: 10px;
+}
+.navBar a:link {
+    color: rgb(170, 175, 180);
+    text-decoration: none;
+}
+.navBar a:hover {
+    color: 
+    rgb(45, 45, 63);
+    text-decoration: none;
+}
+.navBar a:visited{
+    color: rgb(146, 161, 173);
+}
