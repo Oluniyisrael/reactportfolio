@@ -32,7 +32,7 @@ export default class About extends Component {
                     
            </div>
            <div id="CV">
-               <a href="#" download>
+               <a href="#top" download>
                    Download CV
                </a>
            </div>
