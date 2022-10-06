@@ -6,7 +6,7 @@
     min-height: 100vh;
 }
 .aboutPad{
-    padding: 2em;
+    padding: 4em 2em 2em 2em ;
     display: flex;
 }
 #Aboutme{
@@ -38,14 +38,19 @@
    color: rgb(147, 155, 161);
 }
 .CV{
-    border: 2px solid white;
     background-color: white;
     width: 200px;
     height: 40px;
     border-color :rgb(34, 34, 110);
+    background-color: #164070;
     border-radius: 10px;
     text-align: center;
     float: right;
+    cursor: pointer;
+}
+.CV:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
 }
 .CV a:link{
     color: rgb(147, 155, 161);
