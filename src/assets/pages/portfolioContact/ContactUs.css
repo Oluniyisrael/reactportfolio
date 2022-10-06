@@ -1,0 +1,57 @@
+.helloc{
+    background-color: rgb(36, 35, 35);
+    padding: 17%;
+    padding-top: 100px;
+    padding-bottom: 4px;
+}
+
+.hello{
+    color: rgb(223, 230, 230);
+    display: flex;
+    
+}
+.hellol{
+    flex: 2;
+    align-content: center, justify;
+    font-size: 30px;
+    padding-right:60px;
+}
+.shello{
+    text-decoration: underline 2px rgb(79, 152, 185);
+}
+.hellor{
+    flex: 3;
+    font-size: 30px;
+    color:rgb(106, 106, 116);
+}
+.lin{
+    color:rgb(223, 230, 230);
+    text-decoration: none;
+}
+.lin:hover{
+    color: orangered;
+}
+.linkt{
+    border: 3px solid rgb(45, 170, 170);
+    background-color:rgb(45, 170, 170);
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 200px;
+    height: 40px;
+    border-color : rgb(45, 170, 170);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(223, 230, 230);
+      
+}
+.linkt:hover{
+    color:rgb(223, 230, 230) ;
+    border: 2px solid orangered;
+    background-color:orangered;
+    border-color : orangered;
+}
+.hrl{
+    color: rgb(77, 89, 114);
+}
