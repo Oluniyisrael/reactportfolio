@@ -1,0 +1,58 @@
+.Works{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    align-self: center ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.wimg1{
+   
+}
+.wimg2{
+   
+}
+.wimg3{
+   
+    
+}
+.needhelpc, .needhelp{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.needhelplink{
+    color: rgb(29, 60, 143);
+    text-decoration: none;
+}
+.needhelplink:hover{
+    color: rgb(141, 39, 39);
+}
+.conblue{
+    border: 20px solid rgb(41, 80, 185);
+    border-radius:10px ;
+    background-color: rgb(41, 80, 185);
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    width: fit-content;
+    align-self: center;
+    
+}
+.conblue:hover{
+    border: 20px solid rgb(23, 4, 128);
+    border-radius:10px ;
+    background-color: rgb(23, 4, 128);
+}
