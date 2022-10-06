@@ -4,17 +4,13 @@
     color: white;
     font-size: 23px;
     background-size:cover ;
-    padding-top: 6%;
-    padding-left:8%;
-    padding-right: 10%;
-    padding-bottom: 12%;
- 
+    padding: 2em;
 }
 #Aboutme{
     flex: 4;
     padding-right: 20px;
 }
-#Aboutme img{
+.Aboutme img{
     border-radius: 50%;
     border: 3px solid white;
     object-fit: cover;
@@ -23,17 +19,17 @@
     flex: 6;
     padding-left: 25px;
 }
-#About-mecontents{
+.About-mecontents{
     text-align: justify ;
 }
-#abmel{
+.abmel{
     color:white;
     text-decoration :none;
 }
-#abmel:hover{
+.abmel:hover{
    color: rgb(147, 155, 161);
 }
-#CV{
+.CV{
     border: 2px solid white;
     background-color: white;
     width: 200px;
@@ -43,7 +39,7 @@
     text-align: center;
     float: right;
 }
-#CV a:link{
+.CV a:link{
     color: rgb(147, 155, 161);
     text-decoration: none; 
 }
