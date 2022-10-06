@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Me from '../../images/IMG_20220614_104755_287.jpg'
+import './About.css'
 
 export default class About extends Component {
   render() {
