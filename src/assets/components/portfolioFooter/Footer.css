@@ -1,0 +1,21 @@
+.hrl{
+    color: rgb(77, 89, 114);
+}
+.footer{
+    justify-content:end;
+    background-color: rgb(36, 35, 35);
+    padding: 1%;
+}
+.footnote{
+    color: rgb(50, 64, 77);
+    font-size: 20px;
+    text-align: center;
+}
+.footnote a:link{
+    color: rgb(79, 152, 185);
+    text-decoration: none;
+    font-size: 20px;
+}
+.footnote a:hover{
+    color: orangered;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/portfolioFooter/Footer'
 import Navbar from '../../components/portfolioNavBar/Navbar'
 import About from '../portfolioAboutPage/About'
 import ContactUs from '../portfolioContact/ContactUs'
@@ -17,6 +18,7 @@ function Portfolio() {
       <Resume/>
       <Works/>
       <ContactUs/>
+      <Footer/>
     </div>
   )
 }

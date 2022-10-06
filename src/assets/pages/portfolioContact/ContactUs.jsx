@@ -21,10 +21,6 @@ export default class ContactUs extends Component {
               </div>
           </div>
         </div>
-		{/* <div className="footer">
-            <hr color="rgb(77, 89, 114)">
-            <p className="footnote">© Copyright Oluniyi 2022 | Developed by <a href="https://facebook.com/oluniyiozy.israel">Oluniyi Israel</a></p>
-		</div> */}
       </div>
     )
   }
