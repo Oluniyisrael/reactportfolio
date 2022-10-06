@@ -3,15 +3,13 @@
 }
 .Resume{
     background-color: white;
-    padding: 20px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4em ;
     display: flex;
     color: rgb(38, 30, 110);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .flexleft{
-    flex: 2;
+    flex: 1.5;
     text-align: center;
     text-decoration: underline 2px rgb(30, 62, 110);
 }
@@ -25,13 +23,13 @@
 .Resume2{
     background-color: white;
     padding: 20px;
-    padding-bottom: 5%;
+    padding-bottom: 20px;
     display: flex;
     color: rgb(38, 30, 110);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .l2{
-    flex: 2;
+    flex: 1.5;
     text-align: center;
     text-decoration: underline 2px rgb(30, 62, 110);
 }
@@ -45,47 +43,55 @@
 .Skills{
     background-color: white;
     padding: 20px;
-    padding-bottom: 9%;
+    padding-bottom: 3%;
     display: flex;
     color: rgb(38, 30, 110);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .SIntro{
-    flex: 2;
+    flex: 1.5;
     text-align: center;
     text-decoration: underline 2px rgb(30, 62, 110);
 }
 .Skillsbar{
+    border-radius: 50px;
     flex: 4;
     text-align: justify;
 }
 .htmlbar{
-    background-color: rgb(63, 56, 56);
+    border-radius: 50px;
+    background: linear-gradient(to bottom,rgb(32, 27, 27), rgb(63, 56, 56), rgb(32, 27, 27) ) ;
     width: 60%;
     height: 50px;
 }
 .htmlb{
-    background-color: rgb(104, 72, 72);
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
     width: 70%;
     height: 50px;
 }
 .cssbar{
-    background-color: rgb(63, 56, 56);
+    border-radius: 50px;
+    background: linear-gradient(to bottom,rgb(32, 27, 27), rgb(63, 56, 56), rgb(32, 27, 27) ) ;
     width: 60%;
     height: 50px;
 }
 .cssb{
-    background-color: rgb(104, 72, 72);
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
     width: 30%;
     height: 50px;
 }
 .jscriptbar{
-    background-color: rgb(63, 56, 56);
+    border-radius: 50px;
+    background: linear-gradient(to bottom,rgb(32, 27, 27), rgb(63, 56, 56), rgb(32, 27, 27) ) ;
     width: 60%;
     height: 50px;
 }
 .jscriptb{
-    background-color: rgb(104, 72, 72);
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+    border-radius: 50px;
     width: 5%;
     height: 50px;
 }
