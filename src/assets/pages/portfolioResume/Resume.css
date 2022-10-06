@@ -1,0 +1,91 @@
+.resumeContaienr{
+    height: 100vh;
+}
+.Resume{
+    background-color: white;
+    padding: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    color: rgb(38, 30, 110);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flexleft{
+    flex: 2;
+    text-align: center;
+    text-decoration: underline 2px rgb(30, 62, 110);
+}
+.flexright{
+    flex: 4;
+    text-align: justify;
+}
+.flexright span{
+    color: rgb(187, 163, 132);
+}
+.Resume2{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 5%;
+    display: flex;
+    color: rgb(38, 30, 110);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.l2{
+    flex: 2;
+    text-align: center;
+    text-decoration: underline 2px rgb(30, 62, 110);
+}
+.r2{
+    flex: 4;
+    text-align: justify;
+}
+.r2 span{
+    color: rgb(187, 163, 132);
+}
+.Skills{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 9%;
+    display: flex;
+    color: rgb(38, 30, 110);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.SIntro{
+    flex: 2;
+    text-align: center;
+    text-decoration: underline 2px rgb(30, 62, 110);
+}
+.Skillsbar{
+    flex: 4;
+    text-align: justify;
+}
+.htmlbar{
+    background-color: rgb(63, 56, 56);
+    width: 60%;
+    height: 50px;
+}
+.htmlb{
+    background-color: rgb(104, 72, 72);
+    width: 70%;
+    height: 50px;
+}
+.cssbar{
+    background-color: rgb(63, 56, 56);
+    width: 60%;
+    height: 50px;
+}
+.cssb{
+    background-color: rgb(104, 72, 72);
+    width: 30%;
+    height: 50px;
+}
+.jscriptbar{
+    background-color: rgb(63, 56, 56);
+    width: 60%;
+    height: 50px;
+}
+.jscriptb{
+    background-color: rgb(104, 72, 72);
+    width: 5%;
+    height: 50px;
+}
