@@ -1,8 +1,9 @@
 .helloc{
     background-color: rgb(36, 35, 35);
-    padding: 17%;
-    padding-top: 100px;
-    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
 }
 
 .hello{
