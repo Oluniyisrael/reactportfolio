@@ -63,3 +63,43 @@
 .hrl{
     color: rgb(77, 89, 114);
 }
+@media screen and (max-width: 650px ) {
+    .helloc {
+        background-color: rgb(36, 35, 35);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        min-height: -moz-fit-content;
+        min-height: fit-content;
+        height: 100%;
+    }
+    .hello{
+        display: block;
+    }
+    .linkt {
+        border: 3px solid rgb(45, 170, 170);
+        background-color: rgb(45, 170, 170);
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 200px;
+        height: 40px;
+        border-color: rgb(45, 170, 170);
+        border-radius: 5px;
+        text-decoration: none;
+        color: rgb(223, 230, 230);
+    }
+    .hellol {
+        flex: 2 1;
+        align-content: center, justify;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .hellor {
+        flex: 3 1;
+        font-size: 23px;
+        color: rgb(106, 106, 116);
+    }
+}

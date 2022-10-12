@@ -9,10 +9,6 @@
     padding: 4em 2em 2em 2em ;
     display: flex;
 }
-#Aboutme{
-    flex: 4;
-    padding-right: 20px;
-}
 .Aboutme img{
     border-radius: 50%;
     border: 3px solid white;
@@ -55,4 +51,26 @@
 .CV a:link{
     color: rgb(147, 155, 161);
     text-decoration: none; 
+}
+@media screen and (max-width: 650px ) {
+    .aboutPad{
+        padding: 2em 1em 1em 1em ;
+        display: block;
+    }
+    .About-mecontents{
+        text-align: justify ;
+        font-size: 20px;
+    }
+    .Aboutme{
+       display: flex;
+       justify-content: center;
+    }
+    .Aboutme img{
+        border-radius: 50%;
+        border: 3px solid white;
+        object-fit: cover;
+    }
+    .Aboutmecontents h3{
+     text-align: center;
+    }
 }

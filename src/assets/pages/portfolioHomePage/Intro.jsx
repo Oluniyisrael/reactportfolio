@@ -9,8 +9,8 @@ import './Intro.css'
 export default class Intro extends Component {
   render() {
     return (
-      <div className='introContainer'>
-        <div className='intro'>
+      <div id='intro' className='introContainer'>
+        <div className='intro' >
           <h1>I am Israel Oluniyi</h1>
           <h3>
               <p>I'm a <span>Front-End Developer</span>, <span>Content creator</span> and a gamer, creating awesome and effective visual identities for individuals and companies of all sizes around the world. <Link to="#About">Start scrolling</Link> and learn more <Link  to="#About">about me</Link> and <Link to="#Works">my works</Link>.

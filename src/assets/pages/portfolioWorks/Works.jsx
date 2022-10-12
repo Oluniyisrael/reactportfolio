@@ -7,7 +7,7 @@ import wimg3 from '../../images/Web capture_14-6-2022_143549_.jpeg'
 export default class Works extends Component {
   render() {
     return (
-      <div className="Works">
+      <div className="Works" id='works'>
                 <div className="WIntro">
                     <h2> A few of my works</h2>
                 </div>

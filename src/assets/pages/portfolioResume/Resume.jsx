@@ -4,7 +4,7 @@ import './Resume.css'
 export default class Resume extends Component {
   render() {
     return (
-        <div className='resumeContaienr'>
+        <div className='resumeContaienr' id='resume'>
             <div className="Resume">
                 <div className="flexleft">
                     <h3>Career</h3>

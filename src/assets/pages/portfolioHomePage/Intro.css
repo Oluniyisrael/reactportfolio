@@ -39,3 +39,13 @@ text-align: center;
  .scroll:hover{
     text-decoration: underline;
 } 
+@media screen and (max-height : 870px) {
+    .introContainer{
+        height: 800px;
+        background: url(/src/assets/images/img2.jpg) ;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

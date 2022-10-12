@@ -46,3 +46,26 @@
     border-radius:10px ;
     background-color: rgb(23, 4, 128);
 }
+
+@media screen and (max-width: 650px ) {
+    .needhelpc, .needhelp {
+        font-size: 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Works{
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: antiquewhite;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        min-height: 100%;
+        align-self: center ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
+
+}
