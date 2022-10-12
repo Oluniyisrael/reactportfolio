@@ -20,7 +20,7 @@ export default class Intro extends Component {
           <div className="Contact">
             
             <a href="https://facebook.com/oluniyiozy.israel" target='_blank' rel="noreferrer"><img src={img1} alt="..." height="30px" width="30px"/></a>&nbsp;
-            <a href="http://wasap.my/9025486481" target='_blank' rel="noreferrer"><img src={whatsappimg}alt="..." height="30px" width="30px"/></a>
+            <a href="http://wasap.my/+2349025486481" target='_blank' rel="noreferrer"><img src={whatsappimg}alt="..." height="30px" width="30px"/></a>
           </div>
                   <br/>
           <div className="scroll">
