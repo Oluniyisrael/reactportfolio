@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
 import img1 from "../../images/images.png"
 // import img2 from "../../images/img2.jpg"
 import whatsappimg from "../../images/whatsapp icon.png" 
@@ -13,7 +12,7 @@ export default class Intro extends Component {
         <div className='intro' >
           <h1>I am Israel Oluniyi</h1>
           <h3>
-              <p>I'm a <span>Front-End Developer</span>, <span>Content creator</span> and a gamer, creating awesome and effective visual identities for individuals and companies of all sizes around the world. <Link to="#About">Start scrolling</Link> and learn more <Link  to="#About">about me</Link> and <Link to="#Works">my works</Link>.
+              <p>I'm a <span>Front-End Developer</span>, <span>Content creator</span> and a gamer, creating awesome and effective visual identities for individuals and companies of all sizes around the world. <a href="#About">Start scrolling</a> and learn more <a  href="#About">about me</a> and <a href="#works">my works</a>.
               </p> 
           </h3>
 
@@ -24,7 +23,7 @@ export default class Intro extends Component {
           </div>
                   <br/>
           <div className="scroll">
-                  <Link to="/About"><img src={down} alt="..." height="25px" width="25px" id="down"/> Scroll down</Link> 
+                  <a href="#About"><img src={down} alt="..." height="25px" width="25px" id="down"/> Scroll down</a> 
           </div>
         </div>
       </div>
