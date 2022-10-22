@@ -1,0 +1,14 @@
+.ScrollButton{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: blue;
+}
+.ScrollButton:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all 300ms;
+}
+.arrowfooter2{
+    display: none;
+}
