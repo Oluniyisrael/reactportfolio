@@ -14,7 +14,7 @@ export default class About extends Component {
                         <h3>About Me</h3>
                         <p className="About-mecontents">
                             Hi, My name is Israel Oluniyi, I am the CEO of Nexus Technology, a tech company in Nigeria. I am a self taught
-                            front-end developer. Aside fullstack development, I have an interest in Artificial Intelligence y(AI) with a particular 
+                            front-end developer. Aside fullstack development, I have an interest in Artificial Intelligence (AI) with a particular 
                             focus on Machine Learning, Deep Learning, Automation, Robotics and Data Science.  
                             At a personal level, I am a man of few words with a reserved, dedicated, and open-minded personality. 
                             I like to mind my business in all the things I do. I believe that a person should work on developing themselves 
