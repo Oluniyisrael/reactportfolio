@@ -5,19 +5,18 @@ import "./ScrollButton.css"
 
 export default class ScrollButton extends Component {
     constructor(){
-      super(
-        function infiniteScroll() {
-          for (let i = 0; i < scrollLink.length; i++) {
-            
-            
-          }
-        }
-      )
+      super()
     }
   render() {
     return (
-      <div className='ScrollButton'>
-        {/* <img src={null} alt="..." /> */}
+      <div className='ScrollButton' onClick={() => {
+        for (let i = 0; i < scrollLink.length; i++){
+        console.log(scrollLink.i)
+        }
+      }
+    }
+      >
+        <img src={null} alt="..." />
         <h3 className='arrowfooter'> Scroll to top</h3>
         <h3 className='arrowfooter2'>Scroll to bottom</h3>
       </div>
