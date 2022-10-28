@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
+import scrollLink from '../../markdown/scrollButtn.json'
 import "./ScrollButton.css"
 // import Null
 
 export default class ScrollButton extends Component {
-  if () {
-    
-  }
+    constructor(){
+      super(
+        function infiniteScroll() {
+          for (let i = 0; i < scrollLink.length; i++) {
+            
+            
+          }
+        }
+      )
+    }
   render() {
     return (
       <div className='ScrollButton'>
