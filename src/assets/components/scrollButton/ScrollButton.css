@@ -1,16 +1,25 @@
-.ScrollButton{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
+.backToTop{
     background-color: blue;
 }
-.ScrollButton:hover{
-    cursor: pointer;
+.backToTop:hover{
     transform: scale(1.06);
     transition: all 300ms;
-}
+/* }
 .arrowfooter2{
-    display: none;
+    display: none; */
+}
+.buttonContainer{
+    display: fixed;
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+}
+.scrollButton{
+    background-color: blue;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 30%;
 }
 .hidden {
     display: none;
