@@ -7,14 +7,14 @@ import Works from '../portfolioWorks/Works'
 import ContactUs from '../portfolioContact/ContactUs'
 import Footer from '../../components/portfolioFooter/Footer'
 import './Portfolio.css'
-// import ScrollButton from '../../components/scrollButton/ScrollButton'
+import ScrollButton from '../../components/scrollButton/ScrollButton' 
 
 
 function Portfolio() {
   return (
     <div>
       <Navbar/>
-      {/* <ScrollButton/> */}
+      <ScrollButton/>
       <Intro/>
       <About/>
       <Resume/>

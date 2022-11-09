@@ -1,25 +1,35 @@
 import React, { Component } from 'react'
-import scrollLink from '../../markdown/scrollButtn.json'
+// import scrollLink from '../../markdown/scrollButtn.json'
 import "./ScrollButton.css"
 // import Null
 
 export default class ScrollButton extends Component {
-    constructor(){
-      super()
+    constructor(props){
+      super(props)
+        this.state = {
+          minDisappearHeight : "100px",
+          showOnPx : "101px",
+          backToTop : document.querySelectorAll('.backToTop'),
+          scrollContainer : () => {
+            return document.documentElement || document.body;
+          },
+          
+        };
     }
   render() {
     return (
-      <div className='ScrollButton' onClick={() => {
-        for (let i = 0; i < scrollLink.length; i++){
-        console.log(scrollLink.i)
-        }
-      }
-    }
-      >
-        <img src={null} alt="..." />
-        <h3 className='arrowfooter'> Scroll to top</h3>
-        <h3 className='arrowfooter2'>Scroll to bottom</h3>
-      </div>
-    )
+      <div>
+        <button className='backToTop hidden'> 
+        {document.addEventListener("scroll", () => {
+  if (this.scrollContainer().scrollTop > this.showOnPx) {
+    this.backToTop.classList.remove("hidden")
+  } else {
+    this.backToTop.classList.add("hidden")
   }
+})} back to top</button>
+        <button className='scrollButton'>  </button>
+      </div>
+      
+    )
+  } 
 }
