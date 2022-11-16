@@ -17,6 +17,7 @@ export default class Intro extends Component {
           </h3>
 
           <div className="Contact">
+          
             
             <a href="https://facebook.com/oluniyiozy.israel" target='_blank' rel="noreferrer"><img src={img1} alt="..." height="30px" width="30px"/></a>&nbsp;
             <a href="http://wasap.my/+2349025486481" target='_blank' rel="noreferrer"><img src={whatsappimg}alt="..." height="30px" width="30px"/></a>
