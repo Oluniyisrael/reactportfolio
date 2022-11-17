@@ -1,31 +1,27 @@
-import React, { Component } from 'react'
-// import scrollLink from '../../markdown/scrollButtn.json'
+import React,{useState, useEffect} from 'react'
 import "./ScrollButton.css"
-// import Null
 
-export default class ScrollButton extends Component {
-    constructor(){
-      super();
-        this.state = {
-        visible: window.pageYOffset,
-        myButton : ()=>{document.querySelectorAll(".scrollButton")},
-        window: ()=>{document.querySelectorAll("document")},
-        g: ()=>{
-          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            this.state.myButton.style.display = "block";
-          } else {
-            this.state.myButton.display = "none";
-          }
-        }
+function ScrollButton() {
+  const [backToTop, setBackToTop] =useState(false);
+  const top = ()=>{ window.scrollTo(0,0)};
 
-        };
-    }
-    
-  render() {
-    // {this.state.g()}
-    return (
-        <button className='scrollButton'> Back to top </button>
+  useEffect(()=>{
+    window.addEventListener("scroll",()=>{
+      if (window.scrollY > 900) {
+        setBackToTop(true)
+      }
+      else {
+        setBackToTop(false)
+      }
+    })
+  },[]);
+  return (
+    <div>
+      {backToTop && <button className='scrollButton' onClick={top}>Back to top</button>
+      }
       
-    )
-  } 
+    </div>
+  )
 }
+
+export default ScrollButton

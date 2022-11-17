@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './Navbar.css'
 
 export default class Navbar extends Component {
+    state={
+        pageHeight : window.innerHeight
+    }
   render() {
     return (
         <nav className="navBar">
@@ -21,6 +24,7 @@ export default class Navbar extends Component {
                 <li>
                     <a href="#contactus"><p>Say Hello</p> </a>
                 </li>
+                <li> {this.state.pageHeight}</li>
             </ul>
         </nav>
     )
