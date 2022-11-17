@@ -8,19 +8,23 @@ export default class ScrollButton extends Component {
       super();
         this.state = {
         visible: window.pageYOffset,
+        myButton : ()=>{document.querySelectorAll(".scrollButton")},
+        window: ()=>{document.querySelectorAll("document")},
         g: ()=>{
-            console.log('All goo here')
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            this.state.myButton.style.display = "block";
+          } else {
+            this.state.myButton.display = "none";
+          }
         }
 
         };
     }
     
   render() {
-    
+    // {this.state.g()}
     return (
-      <div onClick={this.state.g}>
         <button className='scrollButton'> Back to top </button>
-      </div>
       
     )
   } 
