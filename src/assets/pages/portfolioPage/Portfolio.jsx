@@ -14,7 +14,7 @@ function Portfolio() {
   return (
     <div>
       <Navbar/>
-      <ScrollButton/>
+      {/* <ScrollButton/> */}
       <Intro/>
       <About/>
       <Resume/>
