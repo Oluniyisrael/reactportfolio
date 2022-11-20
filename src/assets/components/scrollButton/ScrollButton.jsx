@@ -7,7 +7,7 @@ function ScrollButton() {
 
   useEffect(()=>{
     window.addEventListener("scroll",()=>{
-      if (window.scrollY > 900) {
+      if (window.scrollY > 3200) {
         setBackToTop(true)
       }
       else {

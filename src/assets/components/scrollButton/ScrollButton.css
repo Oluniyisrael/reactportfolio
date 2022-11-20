@@ -3,21 +3,24 @@
     outline: none;
     border: none;
     padding: 20px;
-    border-radius: 30%;
+    border-radius: 30px;
     position: fixed;
-    bottom: 2em;
-    right: 2em;
-    display: none;
+    bottom: 1.5em;
+    right: 1.5em;
+    color: antiquewhite;
+    font-size: 20px;
 }
 .scrollButton:hover{
     transform: scale(1.06);
     transition: all 300ms;
+    cursor: pointer;
+
  }
 .hidden {
     display: none;
 }
 @media (max-height: 200vh) {
-    .scrollButton{
+    /* .scrollButton{
         display: block;
-    }
+    } */
 }
