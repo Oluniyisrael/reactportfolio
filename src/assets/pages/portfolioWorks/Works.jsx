@@ -16,7 +16,7 @@ export default class Works extends Component {
                     <div className="wimg2"> <img src={wimg2} alt="..." width="300px" height="200px"/></div>
                     <div className="wimg3"> <img src={wimg3} alt="..." width="300px" height="200px"/></div>
                 </div>
-                <hr wclassNameth="60%" align="center"/>
+                <hr width="60%" align="center"/>
                 <h2 className="needhelp">Need a place to learn a skill in tech?</h2>
                    <p className="needhelpc">I highly recommend <a href="https://mobile.facebook.com/BlueHouseTechnologies/" className="needhelplink"> BlueHouse Technologies</a>.
                      BlueHouse has a team of skilled and certified experts and is offering to help anyone who would like to start a career in tech. Guaranteed.</p>
