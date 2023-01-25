@@ -67,7 +67,7 @@
 .htmlb{
     border-radius: 50px;
     background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
-    width: 70%;
+    width: 92%;
     height: 50px;
 }
 .cssbar{
@@ -79,7 +79,7 @@
 .cssb{
     border-radius: 50px;
     background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
-    width: 30%;
+    width: 80%;
     height: 50px;
 }
 .jscriptbar{
@@ -89,11 +89,23 @@
     height: 50px;
 }
 .jscriptb{
+    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
     border-radius: 50px;
+    width: 65%;
+    height: 50px;
+}
+.cppbar{
+    border-radius: 50px;
+    background: linear-gradient(to bottom,rgb(32, 27, 27), rgb(63, 56, 56), rgb(32, 27, 27) ) ;
+    width: 60%;
+    height: 50px;
+}
+.cppb{
     background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
     border-radius: 50px;
     width: 10%;
     height: 50px;
+
 }
 @media screen and (max-height : 870px) {
     .resumeContaienr{
@@ -129,7 +141,7 @@
     .htmlb {
         border-radius: 50px;
         background: linear-gradient(to bottom, rgb(38 30 110), rgb(75, 64, 180), rgb(38 30 110) );
-        width: 90%;
+        width: 92%;
         height: 50px;
     }
     .cssbar{
@@ -141,7 +153,7 @@
     .cssb {
         border-radius: 50px;
         background: linear-gradient(to bottom, rgb(38 30 110), rgb(75, 64, 180), rgb(38 30 110) );
-        width: 47%;
+        width: 57%;
         height: 50px;
     }
     .jscriptbar {
@@ -154,7 +166,7 @@
         border-radius: 50px;
         background: linear-gradient(to bottom, rgb(38 30 110), rgb(75, 64, 180), rgb(38 30 110) );
         border-radius: 50px;
-        width: 15%;
+        width: 65%;
         height: 50px;
     }
 }

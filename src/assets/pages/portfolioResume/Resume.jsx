@@ -48,6 +48,10 @@ export default class Resume extends Component {
                     <div className="jscriptbar">
                         <div className="jscriptb"></div>
                     </div>
+                    <h4>C++</h4>
+                    <div className="cppbar">
+                        <div className="cppb"></div>
+                    </div>
                     <br />
                 </div>
             </div>

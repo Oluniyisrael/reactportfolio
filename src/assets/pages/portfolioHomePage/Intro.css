@@ -32,9 +32,11 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+.Contact img{
+    transition: 300ms ease;
+}
 .Contact img:hover{
     transform: scale(1.46 );
-    transition: all 300ms ease-in-out;
 }
 .scroll{
     display: flex;
