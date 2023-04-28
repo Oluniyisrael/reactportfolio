@@ -63,7 +63,7 @@
 .hrl{
     color: rgb(77, 89, 114);
 }
-@media screen and (max-width: 650px ) {
+@media screen and (max-width: 750px ) {
     .helloc {
         background-color: rgb(36, 35, 35);
         display: flex;
