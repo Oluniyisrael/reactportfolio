@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Works.css'
-import wimg1 from '../../images/Web capture_14-6-2022_142827_.jpeg'
+import wimg1 from '../../images/robofriends.png'
 import wimg2 from '../../images/Web capture_14-6-2022_143348_.jpeg'
 import wimg3 from '../../images/Web capture_14-6-2022_143549_.jpeg'
 
