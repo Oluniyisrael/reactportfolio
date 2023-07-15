@@ -95,12 +95,12 @@
     .hellol {
         flex: 2 1;
         align-content: center, justify;
-        font-size: 35px;
+        font-size: 25px;
         padding-top: 10px;
     }
     .hellor {
         flex: 3 1;
-        font-size: 35px;
+        font-size: 25px;
         color: rgb(106, 106, 116);
     }
 }
