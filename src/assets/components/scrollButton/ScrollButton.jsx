@@ -18,7 +18,7 @@ function ScrollButton() {
   return (
     <div>
       {backToTop && 
-      <button className='scrollButton' onClick={top}>Back to top</button>
+      <button className='scrollButton' onClick={top}>↑</button>
        } 
       
     </div>

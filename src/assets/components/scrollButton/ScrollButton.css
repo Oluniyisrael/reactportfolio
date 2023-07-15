@@ -1,15 +1,28 @@
-.scrollButton{
+.scrollButton {
     background-color: blue;
     outline: none;
     border: none;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 50%;
     position: fixed;
     bottom: 4em;
+    height: 3em;
+    width: 3em;
     right: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: antiquewhite;
     font-size: 20px;
+    transition: opacity 1s ease-in;
+    animation: arrowInOut 1s linear forwards;
 }
+
+  
+  @keyframes arrowInOut {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
 .scrollButton:hover{
     transform: scale(1.06);
     transition: all 300ms;
