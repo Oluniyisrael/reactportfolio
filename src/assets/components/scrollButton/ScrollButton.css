@@ -32,8 +32,11 @@
 .hidden {
     display: none;
 }
-@media (max-height: 200vh) {
-    /* .scrollButton{
-        display: block;
-    } */
+@media screen and (max-width: 900px ) {
+    .scrollButton {
+        bottom: 1em;
+        height: 2em;
+        width: 2em;
+        right: 1.5em;
+    }
 }

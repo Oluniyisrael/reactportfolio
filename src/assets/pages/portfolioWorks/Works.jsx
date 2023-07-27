@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './Works.css'
 import wimg1 from '../../images/robofriends.png'
-import wimg2 from '../../images/Web capture_14-6-2022_143348_.jpeg'
-import wimg3 from '../../images/Web capture_14-6-2022_143549_.jpeg'
+import wimg2 from '../../images/topmost.png'
+import wimg3 from '../../images/esdermablog.png'
 
 export default class Works extends Component {
   render() {
@@ -12,9 +12,9 @@ export default class Works extends Component {
                     <h2> A few of my works</h2>
                 </div>
                 <div className="wimg">
-                    <div className="wimg1"> <a href="https://izzyrobofriends.netlify.app/"><img src={wimg1} alt="..." width="300px" height="200px"/> </a> </div>
-                    <div className="wimg2"> <img src={wimg2} alt="..." width="300px" height="200px"/></div>
-                    <div className="wimg3"> <img src={wimg3} alt="..." width="300px" height="200px"/></div>
+                    <div className="wimg1"> <a href="https://izzyrobofriends.netlify.app/"><img src={wimg1} alt="..." width="300px" height="200px"/> </a><p>Robofriends</p> </div>
+                    <div className="wimg2"> <a href="https://topmostintc.netlify.app/"><img src={wimg2} alt="..." width="300px" height="200px"/></a> <p>Topmost International School</p></div>
+                    <div className="wimg3">  <a href="https://esdermablog.netlify.app/"><img src={wimg3} alt="..." width="300px" height="200px"/></a></div>
                 </div>
                 <hr width="60%" align="center"/>
                 <h2 className="needhelp">Need a place to learn a skill in tech?</h2>
