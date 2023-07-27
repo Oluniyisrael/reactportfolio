@@ -169,4 +169,20 @@
         width: 65%;
         height: 50px;
     }
+    .cppbar{
+        border-radius: 50px;
+        background: linear-gradient(to bottom,rgb(32, 27, 27), rgb(63, 56, 56), rgb(32, 27, 27) ) ;
+        width: 100%;
+        height: 50px;
+    }
+    .cppb{
+        background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+        border-radius: 50px;
+        width: 25%;
+        height: 50px;
+    
+    }
+    .Skills{
+        flex-direction: column;
+    }
 }
