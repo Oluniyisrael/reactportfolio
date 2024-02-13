@@ -13,7 +13,7 @@ export default class About extends Component {
                     <div className="Aboutmecontents">
                         <h3>About Me</h3>
                         <p className="About-mecontents">
-                            Hi, My name is Israel Oluniyi, I am. I am a self taught
+                            Hi, My name is Israel Oluniyi, I am a self taught
                             front-end developer. Aside front end development, I have an interest in Artificial Intelligence (AI) with a particular 
                             focus on Game developmet,  Robotics and Data Science.  
                             At a personal level, I am a man of few words with a reserved, dedicated, and open-minded personality. 
