@@ -8,10 +8,11 @@
     align-items: center;
 }
 .intro {
-width: 80%;
-text-align: center;
+    width: 80%;
+    text-align: center;
+    position: fixed;
 }
-.intro a:link{
+.intro a:link{ 
     color: white;
     text-decoration: none;
 }
