@@ -9,7 +9,8 @@
     background-color: white;
     padding-top: 4em ;
     display: flex;
-    color: rgb(38, 30, 110);
+    /* color: rgb(38, 30, 110); */
+    color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
@@ -23,15 +24,18 @@
     flex: 4;
     text-align: justify;
 }
-.flexright span{
+/* .flexright span{
     color: rgb(187, 163, 132);
+} */
+.flexright span {
+    color: rgb(186 99 41);
 }
-.Resume2{
+.Resume2 {
     background-color: white;
     padding: 20px;
     padding-bottom: 20px;
     display: flex;
-    color: rgb(38, 30, 110);
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .l2{
@@ -43,15 +47,18 @@
     flex: 4;
     text-align: justify;
 }
-.r2 span{
-    color: rgb(187, 163, 132);
+.r2 span {
+    color: rgb(186 99 41);
 }
+
 .Skills{
     background-color: white;
     padding: 20px;
     padding-bottom: 3%;
     display: flex;
-    color: rgb(38, 30, 110);
+    /* color: rgb(38, 30, 110);
+     */
+     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .SIntro{
@@ -72,7 +79,9 @@
 }
 .htmlb{
     border-radius: 50px;
-    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+    /* background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+     */
+     background: linear-gradient(to bottom, #8f542c, rgb(245 131 54), #8f542c);;
     width: 92%;
     height: 50px;
 }
@@ -84,7 +93,8 @@
 }
 .cssb{
     border-radius: 50px;
-    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+    /* background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ; */
+    background: linear-gradient(to bottom, #8f542c, rgb(245 131 54), #8f542c);
     width: 80%;
     height: 50px;
 }
@@ -95,7 +105,8 @@
     height: 50px;
 }
 .jscriptb{
-    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+    /* background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ; */
+    background: linear-gradient(to bottom, #8f542c, rgb(245 131 54), #8f542c);;
     border-radius: 50px;
     width: 65%;
     height: 50px;
@@ -107,7 +118,8 @@
     height: 50px;
 }
 .cppb{
-    background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ;
+    /* background: linear-gradient(to bottom, rgb(38 30 110),  rgb(75, 64, 180),  rgb(38 30 110) ) ; */
+    background: linear-gradient(to bottom, #8f542c, rgb(245 131 54), #8f542c);;
     border-radius: 50px;
     width: 25%;
     height: 50px;

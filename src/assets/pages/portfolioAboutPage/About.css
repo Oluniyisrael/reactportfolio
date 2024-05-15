@@ -1,11 +1,13 @@
 .about {
-    background: linear-gradient(#102b4a, rgb(30, 30, 68));
+    /* background: linear-gradient(#102b4a, rgb(30, 30, 68)); */
+    background: linear-gradient(#5b340b, rgb(60 38 24));
     color: white;
     font-size: 23px;
     background-size: cover;
     min-height: 100vh;
     z-index: 2;
     position: relative;
+    color: #F1F0CC;
 }
 .aboutPad{
     padding: 4em 2em 2em 2em ;
@@ -39,8 +41,8 @@
     background-color: white;
     width: 200px;
     height: 40px;
-    border-color :rgb(34, 34, 110);
-    background-color: #164070;
+    border-color :rgb(243, 101, 0);
+    background-color: black;
     border-radius: 10px;
     text-align: center;
     float: right;
@@ -51,7 +53,11 @@
     transition: all 300ms ease-in-out;
 }
 .CV a:link{
-    color: rgb(147, 155, 161);
+    color: white;
+    text-decoration: none; 
+}
+.CV a:visited{
+    color: white;
     text-decoration: none; 
 }
 @media screen and (max-width: 650px ) {
