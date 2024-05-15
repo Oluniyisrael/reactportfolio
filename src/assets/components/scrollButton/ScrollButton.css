@@ -16,6 +16,7 @@
     font-size: 20px;
     transition: opacity 1s ease-in;
     animation: arrowInOut 1s linear forwards;
+    z-index: 5;
 }
 
   

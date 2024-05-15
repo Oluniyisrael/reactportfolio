@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import img1 from "../../images/images.png"
 // import img2 from "../../images/img2.jpg"
 import whatsappimg from "../../images/whatsapp icon.png" 
-import down from "../../images/down.png"
+// import down from "../../images/down.png"
 import './Intro.css'
 
 export default class Intro extends Component {
@@ -23,9 +23,6 @@ export default class Intro extends Component {
             <a href="http://wasap.my/+2349025486481" target='_blank' rel="noreferrer"><img src={whatsappimg}alt="..." height="30px" width="30px"/></a>
           </div>
                   <br/>
-          <div className="scroll">
-                  <a href="#About"><img src={down} alt="..." height="25px" width="25px" id="down"/> Scroll down</a> 
-          </div>
         </div>
       </div>
     )

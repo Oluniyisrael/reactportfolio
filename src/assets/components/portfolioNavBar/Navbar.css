@@ -1,15 +1,39 @@
-.navBar{
+.navBar {
     display: flex;
-    justify-content: center;
-    position:fixed;
-    min-height:50px ;
-    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    min-height: 50px;
+    /* background-color: black; */
     width: 100%;
-    top: 0;    
+    top: 0;
+    background: transparent;
+    transition: 1000ms;
+    height: 80px;
+    z-index: 999;
 }
-.navBar ul{  
+.bg{
+        background-color: black !important;
+        height: 100px !important;
+
+}
+.navBar ul {
     list-style-type: none;
     margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navBar div {
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    height: inherit;
+}
+.navBar div img{
+    padding: 0 20px ;
 }
 .navBar li{
     padding: 0;
@@ -30,6 +54,58 @@
 .navBar a:active{
     color: orange;
 }
+.naviLinks{
+    color: yellow;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+    font-size: 20px;
+    position: relative;
+}
+/* .naviLinks:active{
+    color: lightslategrey;
+    text-decoration: none;
+    transition: 400ms ease;
+    font-size: 20px;
+    position: relative;
+} */
+.naviLinks:hover{
+    /* text-decoration: underline;
+    text-decoration: overline; */
+        /* color: blue; */
+        cursor: pointer;
+
+}
+.naviLinks::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffff00;
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+    transform: scaleX(0);
+  }
+  .naviLinks:hover::after{
+    transform: scaleX(1);
+  }
+  .active p {
+    font-weight: 700;
+    color: #8f542c;
+  }
+  .active p::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8f542c;
+    transform-origin: bottom ;
+    transition: transform 0.5s ease-out;
+    transform: scaleX(1);
+  }
 html{
     scroll-behavior: smooth;
 }

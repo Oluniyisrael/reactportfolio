@@ -1,6 +1,7 @@
 .introContainer{
     height: 100vh;
     background: url(/src/assets/images/img2.jpg) ;
+    background-attachment: fixed;
     background-size:cover;
     display: flex;
     justify-content: center;
@@ -53,5 +54,6 @@ text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-attachment: fixed;
     }
 }

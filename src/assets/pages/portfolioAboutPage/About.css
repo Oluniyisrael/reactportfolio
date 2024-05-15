@@ -1,9 +1,11 @@
-.about{
-    background:linear-gradient( #102b4a,rgb(30, 30, 68)) ;
+.about {
+    background: linear-gradient(#102b4a, rgb(30, 30, 68));
     color: white;
     font-size: 23px;
-    background-size:cover ;
+    background-size: cover;
     min-height: 100vh;
+    z-index: 2;
+    position: relative;
 }
 .aboutPad{
     padding: 4em 2em 2em 2em ;

@@ -1,12 +1,18 @@
 .resumeContaienr{
     height: 100vh;
 }
+.resumeContaienr{
+    z-index: 2;
+    position: relative;
+}
 .Resume{
     background-color: white;
     padding-top: 4em ;
     display: flex;
     color: rgb(38, 30, 110);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 .flexleft{
     flex: 1.5;
