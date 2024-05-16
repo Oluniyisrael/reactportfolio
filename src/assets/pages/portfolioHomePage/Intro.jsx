@@ -11,7 +11,7 @@ export default class Intro extends Component {
         <div className='intro' >
           <h1>I am Israel Oluniyi</h1>
           <h3>
-              <p>I'm a <span>Front-End Developer</span>, <span>Content creator</span> and a gamer, creating awesome and effective visual identities for individuals and companies of all sizes around the world. <a href="#About">Start scrolling</a> and learn more <a  href="#About">about me</a> and <a href="#works">my works</a>.
+              <p>I am currently a <span>Fullstack Developer</span>, <span>Content creator</span> and a gamer, creating awesome and effective visual identities for individuals and companies of all sizes around the world. <a href="#About">Start scrolling</a> and learn more <a  href="#About">about me</a> and <a href="#works">my works</a>.
               </p> 
           </h3>
 
