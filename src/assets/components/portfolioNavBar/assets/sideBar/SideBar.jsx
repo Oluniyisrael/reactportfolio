@@ -1,15 +1,10 @@
 import React from 'react';
-import logo from './assets/IzzyDev.png';
-import './Navbar.css';
 import { Link } from 'react-scroll';
 import "./SideBar.css"
 
-function SideBar() {
+function SideBar(props) {
   return (
-      <nav className={navbarClassName}>
-        <div>
-          <img src={logo} alt="mylogo" className="mylogo" />
-        </div>
+      <nav className={props.navbarClassName}>
         <ul>
           <li>
             <Link activeClass="active" spy to="intro">
@@ -37,11 +32,6 @@ function SideBar() {
             </Link>
           </li>
         </ul>
-        <div id="hamburgerDiv" className={hamburgerClass}>
-          <input type="button" value="☰" id="hamburger" onClick={this.handleClick} />
-        </div>
-        <nav>
-        </nav>
       </nav>
     );
 }

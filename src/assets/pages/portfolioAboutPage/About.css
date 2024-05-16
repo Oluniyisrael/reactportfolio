@@ -61,10 +61,10 @@
     text-decoration: none; 
 }
 @media screen and (max-width: 650px ) {
-    .aboutPad{
-        padding: 55px 1em 1em 1em ;
-        display: block;
-    }
+        .aboutPad {
+            padding: 105px 1em 1em 1em;
+            display: block;
+        }
     .About-mecontents{
         text-align: justify ;
         font-size: 20px;

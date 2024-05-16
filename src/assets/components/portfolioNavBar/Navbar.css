@@ -19,6 +19,7 @@
         height: 100px !important;
 
 }
+
 .navBar ul {
     list-style-type: none;
     margin: 0;
@@ -80,11 +81,19 @@
 }
 #hamburger {
     margin-left: 20px;
+    font-size: 20px;
     background: transparent;
     color: white;
     border-style: solid;
     border-width: 1px;
     border-color: #f8f9fa;
+    border-radius: 10px;
+    transition: 400ms;
+}
+.sideBar{
+    border-color:black !important;
+    background: goldenrod !important;
+    color:black !important;
 }
 .naviLinks:hover{
     /* text-decoration: underline;

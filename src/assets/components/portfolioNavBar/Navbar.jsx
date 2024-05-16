@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './assets/IzzyDev.png';
 import './Navbar.css';
 import { Link } from 'react-scroll';
+import SideBar from './assets/sideBar/SideBar';
 
 export default class Navbar extends Component {
   state = {
@@ -37,6 +38,9 @@ export default class Navbar extends Component {
 
     return (
       <nav className={navbarClassName}>
+        <SideBar  
+        navbarClassName= {hamburgerIcon}/>
+
         <div>
           <img src={logo} alt="mylogo" className="mylogo" />
         </div>
@@ -67,8 +71,8 @@ export default class Navbar extends Component {
             </Link>
           </li>
         </ul>
-        <div id="hamburgerDiv" className={hamburgerClass}>
-          <input type="button" value="☰" id="hamburger" onClick={this.handleClick} />
+        <div id="hamburgerDiv" >
+          <input type="button" className={hamburgerClass} value="☰" id="hamburger" onClick={this.handleClick} />
         </div>
         <nav>
         </nav>
