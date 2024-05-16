@@ -28,7 +28,7 @@
     padding-right:60px;
 }
 .shello{
-    text-decoration: underline 2px rgb(79, 152, 185);
+    text-decoration: underline 2px #8f542c;
 }
 .hellor{
     flex: 3;
@@ -43,15 +43,15 @@
     color: orangered;
 }
 .linkt{
-    border: 3px solid rgb(45, 170, 170);
-    background-color:rgb(45, 170, 170);
+    border: 3px solid #8f542c;
+    background-color:#8f542c;
     font-size: 20px;
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
     width: 200px;
     height: 40px;
-    border-color : rgb(45, 170, 170);
+    border-color :#8f542c;
     border-radius: 5px;
     text-decoration: none;
     color: rgb(223, 230, 230);
