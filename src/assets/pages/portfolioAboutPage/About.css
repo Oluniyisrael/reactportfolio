@@ -10,7 +10,7 @@
     color: #F1F0CC;
 }
 .aboutPad{
-    padding: 4em 2em 2em 2em ;
+    padding:105px 2em 2em 2em; 
     display: flex;
 }
 .Aboutme img{
@@ -62,7 +62,7 @@
 }
 @media screen and (max-width: 650px ) {
     .aboutPad{
-        padding: 2em 1em 1em 1em ;
+        padding: 55px 1em 1em 1em ;
         display: block;
     }
     .About-mecontents{
@@ -72,6 +72,12 @@
     .Aboutme{
        display: flex;
        justify-content: center;
+    }
+    .Aboutmecontents {
+        flex: 6 1;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
     }
     .Aboutme img{
         border-radius: 50%;

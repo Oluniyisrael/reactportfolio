@@ -1,6 +1,6 @@
 .Works{
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 40px;
     background-color: antiquewhite;
     text-align: center;
@@ -14,6 +14,14 @@
     position: relative;
 
 }
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+    align-self: center;
+}
 .wimg{
     display: flex;
     justify-content: center;
@@ -24,6 +32,7 @@
     font-size: 30px;
     margin-left: 30%;
     margin-right: 30%;
+    color: #8f542c;
     
 }
 .needhelplink{

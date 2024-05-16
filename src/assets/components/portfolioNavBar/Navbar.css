@@ -7,9 +7,12 @@
     width: 100%;
     top: 0;
     background: transparent;
-    transition: 1000ms;
+    transition: 500ms;
     height: 80px;
     z-index: 999;
+}
+.navBar a {
+    text-decoration: none;
 }
 .bg{
         background-color: black !important;
@@ -22,7 +25,8 @@
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding: 0;
 }
 .navBar div {
     margin: 0;
@@ -68,6 +72,20 @@
     font-size: 20px;
     position: relative;
 } */
+#hamburgerDiv{
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#hamburger {
+    margin-left: 20px;
+    background: transparent;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f8f9fa;
+}
 .naviLinks:hover{
     /* text-decoration: underline;
     text-decoration: overline; */
@@ -108,6 +126,64 @@
   }
 html{
     scroll-behavior: smooth;
+}
+@media screen and (max-width: 900px) {
+    .navBar div {
+        margin: 0;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 40%;
+        height: inherit;
+    }
+    .navBar li{
+        padding: 0;
+        display: inline-block;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .navBar ul{  
+        list-style-type: none;
+        font: optional;
+        width: 60%;
+    }
+    .navBar p{
+        margin: 3px;
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #hamburgerDiv{
+        display: flex;
+
+    }
+    .navBar{
+        flex-direction: row-reverse;
+    }
+    .navBar div {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+    }
+    .navBar li{
+        padding: 0;
+        display: inline-block;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .navBar ul{  
+        list-style-type: none;
+        font: optional;
+        width: 60%;
+        display: none;
+    }
+    .navBar p{
+        margin: 3px;
+        margin-top: 7px;
+    }
 }
 @media screen and (max-width: 450px) {
     .navBar li{

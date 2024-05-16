@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import img1 from "../../images/images.png"
 // import img2 from "../../images/img2.jpg"
-import whatsappimg from "../../images/whatsapp icon.png" 
+import { SocialIcon } from 'react-social-icons'
 // import down from "../../images/down.png"
 import './Intro.css'
 
@@ -16,11 +15,13 @@ export default class Intro extends Component {
               </p> 
           </h3>
 
-          <div className="Contact">
-          
+          <div className="Contact"> 
+            <SocialIcon url="http://wasap.my/+2349025486481" network='whatsapp' className='sicons'/>
+            <SocialIcon url="https://facebook.com/oluniyiozy.israel"  className='sicons'/>
+            <SocialIcon url="https://github.com/Oluniyisrael"  className='sicons'/>
+            <SocialIcon url="mailto:israeloluniyi2004@gmail.com"  network="email"className='sicons'/>
             
-            <a href="https://facebook.com/oluniyiozy.israel" target='_blank' rel="noreferrer"><img src={img1} alt="..." height="30px" width="30px"/></a>&nbsp;
-            <a href="http://wasap.my/+2349025486481" target='_blank' rel="noreferrer"><img src={whatsappimg}alt="..." height="30px" width="30px"/></a>
+            
           </div>
                   <br/>
         </div>

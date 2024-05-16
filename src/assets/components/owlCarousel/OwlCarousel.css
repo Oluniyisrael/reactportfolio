@@ -1,0 +1,14 @@
+.title span{
+    border-right:5px solid rgb(38, 30, 110);
+    margin-right: 20px;
+}
+.title{
+    padding: 10px;
+}
+.title h4{
+    color: rgb(255, 132, 0);
+}
+.title h2{
+    color: black;
+    font-family: sans-serif;
+}
