@@ -12,7 +12,8 @@
     text-align: center;
 }
 .footnote a:link{
-    color: rgb(79, 152, 185);
+    /* color: rgb(79, 152, 185); */
+    color: #fdd835;
     text-decoration: none;
     font-size: 20px;
 }
