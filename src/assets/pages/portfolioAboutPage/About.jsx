@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Me from '../../images/IMG_20220614_104755_287.jpg'
 import './About.css'
+import CV from './asstes/myCV/OLUNIYISRAEL.pdf'
 
 export default class About extends Component {
   render() {
@@ -33,7 +34,7 @@ export default class About extends Component {
                             </p>
                             
                     <div className="CV">
-                        <a href="#top" download>
+                        <a href={CV} download>
                             Download CV
                         </a>
                     </div>

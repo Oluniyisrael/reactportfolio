@@ -1,9 +1,8 @@
 .scrollButton {
-    background-color: blue;
+    background-color: #343a40;
     outline: none;
-    border: none;
     padding: 20px;
-    border-radius: 50%;
+    border-radius: 10px;
     position: fixed;
     bottom: 4em;
     height: 3em;
@@ -16,6 +15,8 @@
     font-size: 20px;
     transition: opacity 1s ease-in;
     animation: arrowInOut 1s linear forwards;
+    border: 3px solid;
+    z-index: 5;
 }
 
   
@@ -32,9 +33,9 @@
 .hidden {
     display: none;
 }
-@media screen and (max-width: 900px ) {
+@media screen and (max-width: 900px) {
     .scrollButton {
-        bottom: 1em;
+        bottom: 15vh;
         height: 2.5em;
         width: 2.5em;
         right: 1.5em;
