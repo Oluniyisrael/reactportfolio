@@ -6,7 +6,8 @@ import './OwlCarousel.css';
 
 import wimg1 from '../../images/robofriends.png';
 import wimg2 from '../../images/topmost.png';
-import wimg3 from '../../images/esdermablog.png';
+import wimg3 from '../../images/oluwatoyin.png';
+import wimg4 from '../../images/accuvice.png';
 
 const excursionsData = [
   {
@@ -23,9 +24,15 @@ const excursionsData = [
   },
   {
     imageUrl: wimg3,
-    title: 'Esdermablog', // Unique title for the third excursion
-    link: 'https://esdermablog.netlify.app/',
-    description: '(May 17th, 2018)',
+    title: 'Dr Ojo\'s portfolio', // Unique title for the third excursion
+    link: 'https://www.oluwatoyinojo.com.ng/',
+    description: '(July  23th, 2024)',
+  },
+  {
+    imageUrl: wimg4,
+    title: 'Accuvice', // Unique title for the third excursion
+    link: 'https://accuvice.vercel.app/',
+    description: '(August  29th, 2024)',
   },
 ];
 
