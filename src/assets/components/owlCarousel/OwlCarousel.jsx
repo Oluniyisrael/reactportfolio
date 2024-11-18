@@ -19,7 +19,7 @@ const excursionsData = [
   {
     imageUrl: wimg2,
     title: 'Topmost Intercontinental academy', // Unique title for the second excursion
-    link: 'https://topmostintc.netlify.app/',
+    link: 'https://topmostint.edu.ng/',
     description: '(March 17th, 2022)',
   },
   {
